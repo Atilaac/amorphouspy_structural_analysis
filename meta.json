@@ -1,0 +1,43 @@
+{
+    "workflow_environment": "amorphouspy",
+    "title": "Structural Analysis of Oxide Glasses",
+    "authors": [
+        "Achraf Atila <achraf.atila@bam.de>"
+    ],
+    "description": "Complete structural analysis workflow for oxide glasses using amorphouspy: radial distribution functions, coordination numbers, Qn species, bond angle distributions, structure factor S(q), Guttman ring statistics, and cavity analysis.",
+    "release": "0.1.0",
+    "keywords": [
+        "glass",
+        "structural analysis",
+        "RDF",
+        "coordination",
+        "Qn species",
+        "ring statistics",
+        "structure factor",
+        "cavities",
+        "amorphouspy",
+        "atomistics"
+    ],
+    "categories": [
+        "atomistics",
+        "glass",
+        "analysis"
+    ],
+    "steps/codes": [
+        "Load glass structure (extxyz)",
+        "Compute partial radial distribution functions g(r)",
+        "Compute coordination number distributions",
+        "Compute Qn species distribution and network connectivity",
+        "Compute bond angle distributions (O-Si-O, Si-O-Si)",
+        "Compute neutron and X-ray structure factor S(q)",
+        "Compute Guttman primitive ring-size distribution",
+        "Compute cavity volumes, surface areas, and shape statistics",
+        "Visualise cavities in 3D (Plotly)",
+        "Run full analysis workflow with analyze_structure",
+        "Interactive dashboard with plot_analysis_results_plotly"
+    ],
+    "licenses": {
+        "amorphouspy": "MIT"
+    },
+    "logo": "logo_dark.png"
+}
