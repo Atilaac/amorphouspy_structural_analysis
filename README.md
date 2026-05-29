@@ -2,6 +2,8 @@
 
 # Structural Analysis of Oxide Glasses (amorphouspy)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atilaac/amorphouspy_structural_analysis/HEAD?labpath=example.ipynb)
+
 Complete structural analysis workflow for atomistic glass structures using **amorphouspy**.
 
 **Tools covered:**
